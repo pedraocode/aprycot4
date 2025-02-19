@@ -1,0 +1,303 @@
+input {
+    width: 476px;
+height: 40;
+gap: 227px;
+border-radius: 64px;
+border-width: 1px;
+padding-top: 8px;
+padding-right: 16px;
+padding-bottom: 8px;
+padding-left: 16px;
+border: 1px solid #EA6A12;
+margin: 20px;
+}
+button {
+    width: 148px;
+    height: 44px;
+    border-radius: 44px;
+    gap: 8px;
+    padding: 8px 24px;
+    background: #EA6A12;
+    border: none; 
+    color: white;
+  }
+  h5 {
+    width: 25px;
+height: 25px;
+color: #959895;
+margin-left: 25px;
+margin-bottom: -20px;
+  }
+
+  .vaificafeio {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Texto */
+  p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #959895;
+  }
+  
+  h1 {
+    width: 172px;
+    height: 52px;
+    color: #07143B;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Contêiner do círculo */
+  .circula {
+    position: absolute;
+    top: -200px;
+    right: -100px;
+    width: 1025px;
+    height: 825px; /* Mantém o formato ovalado que você já tinha */
+  }
+  
+  /* Círculo de fundo */
+  .circulo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #FFF3EBA3;
+    overflow: hidden;
+   margin-top: 100px;
+    /* Distribui as imagens em grid (2 filas de 3 e 1 de 2) */
+    display: grid;
+
+    grid-gap: 40px;      
+                    
+    justify-content: center;                
+    align-content: center;                 
+  }
+  .tre, .tuo {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+   margin: 40px;
+  }
+  /* Imagens */
+  .circulo img {
+    width: 120px;  
+    height: 120px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    
+  }
+  
+  /* Layout geral */
+  body {
+    overflow-x: hidden;
+  }
+  
+  .success {
+    width: 540px;
+    height: 437px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  
+  .vdd {
+    width: 86px;
+    height: 91px;
+  }
+  
+  .logo {
+    display: flex; 
+    align-self: start;
+  }
+  
+  @media screen and (max-width: 1500px) {
+    .allpage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .circula {
+      position: static;
+      width: 925px;
+      height: 725px;
+    }
+  
+    .success {
+      margin-left: 0;
+      margin-top: 50px;
+      margin-bottom: 300px;
+      width: 440px;
+      height: 337px;
+    }
+  
+    .vaificafeio input {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .circula {
+      width: 825px;
+      height: 625px;
+    }
+  
+    .success {
+      width: 400px;
+      height: 300px;
+      margin-bottom: 300px;
+    }
+  
+    .vaificafeio input {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .circula {
+      width: 725px;
+      height: 525px;
+    }
+  
+    .success {
+      width: 350px;
+      height: 260px;
+      margin-bottom: 300px;
+    }
+  
+    .vaificafeio input {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .circula {
+      width: 625px;
+      height: 425px;
+    }
+  
+    .success {
+      width: 300px;
+      height: 220px;
+      margin-bottom: 300px;
+    }
+  
+    .vaificafeio input {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .circula {
+      width: 525px;
+      height: 325px;
+    }
+  
+    .success {
+      width: 280px;
+      height: 200px;
+      margin-bottom: 300px;
+    }
+  
+    .vaificafeio input {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .circula {
+      width: 425px;
+      height: 275px;
+    }
+  
+    .success {
+      width: 260px;
+      height: 180px;
+      margin-bottom: 300px;
+    }
+  
+    .vaificafeio input {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .circula {
+      width: 325px;
+      height: 225px;
+    }
+  
+    .success {
+      width: 240px;
+      height: 160px;
+      margin-bottom: 300px;
+    }
+  
+    .vaificafeio input {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .circula {
+      width: 225px;
+      height: 175px;
+    }
+  
+    .success {
+      width: 220px;
+      height: 140px;
+      margin-bottom: 300px;
+    }
+  
+    .vaificafeio input {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .circula {
+      width: 200px;
+      height: 150px;
+    }
+  
+    .success {
+      width: 200px;
+      height: 120px;
+      margin-bottom: 300px;
+    }
+  
+    .vaificafeio input {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .circula {
+      width: 180px;
+      height: 130px;
+    }
+  
+    .success {
+      width: 180px;
+      height: 100px;
+      margin-bottom: 300px;
+    }
+  
+    .vaificafeio input {
+      width: 100%;
+    }
+  }
+  
